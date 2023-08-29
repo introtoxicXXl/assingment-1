@@ -51,6 +51,43 @@ header {
   position: bottom;
   overflow: hidden;
 }
+.featured-section{
+    margin: 50px 0;
+}
+.featured-section h1{
+    text-align: center;
+    font-size: 40px;
+}
+.featured-section p{
+    text-align: center;
+    margin-top: 10px;
+}
+.featured-section>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.card-img-1{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0;
+    padding: 60px 40px 40px;
+}
+.card-img-2{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0;
+    padding: 60px 40px 0px;
+}
+.card-img-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0;
+    padding: 60px 75px 0px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
 
 .deal-section {
   display: flex;
