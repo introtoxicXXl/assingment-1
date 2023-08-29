@@ -5,7 +5,9 @@
   margin: 0;
   font-family: "Lato", sans-serif;
 }
-
+.text-color{
+    color: #e55473;
+}
 .btn-primary {
   border-radius: 8px;
   background: #e55473;
@@ -44,4 +46,31 @@ header {
 .header-img img {
   width: 635px;
   height: 800px;
+  position: bottom;
+  overflow: hidden;
+}
+
+.deal-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0 100px;
+}
+.deal-left h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.deal-left{
+    flex-basis: 50%;
+    padding-left: 100px;
+}
+.deal-right{
+    flex-basis: 50%;
+    padding-left: 100px;
+
 }
