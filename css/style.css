@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 .text-color {
   color: #e55473;
@@ -16,6 +17,10 @@
   color: #fff;
   cursor: pointer;
   margin-left: 10px;
+}
+.btn-primary:hover {
+  background: #be2e4e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 header {
@@ -121,10 +126,10 @@ header {
   font-style: italic;
   margin-bottom: 20px;
 }
-.bonus-right p{
+.bonus-right p {
   margin-bottom: 20px;
 }
-.bonus-left p{
+.bonus-left p {
   margin-bottom: 20px;
 }
 .deal-section {
