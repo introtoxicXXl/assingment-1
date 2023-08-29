@@ -14,7 +14,8 @@
   padding: 20px 43px;
   border: 0;
   color: #fff;
-  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 header {
@@ -65,6 +66,9 @@ header {
   font-weight: 800;
   margin-bottom: 20px;
 }
+.deal-left p{
+    margin-bottom: 20px;
+}
 
 .deal-left {
   flex-basis: 50%;
@@ -97,3 +101,35 @@ header {
     display: flex;
     justify-content: space-around;
 }
+.social-img img{
+    width: 342px;
+    height: 396px;
+}
+.subscribe-section{
+    padding: 0 100px;
+}
+.subscribe{
+    background-image: url(/asset/Rectangle-9.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email{
+    padding: 20px 43px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 700px;
+}
+.subscribe h1{
+    margin-bottom: 20px;
+}
+.subscribe p{
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
