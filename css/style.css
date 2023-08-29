@@ -5,8 +5,8 @@
   margin: 0;
   font-family: "Lato", sans-serif;
 }
-.text-color{
-    color: #e55473;
+.text-color {
+  color: #e55473;
 }
 .btn-primary {
   border-radius: 8px;
@@ -14,6 +14,7 @@
   padding: 20px 43px;
   border: 0;
   color: #fff;
+  margin-top: 20px;
 }
 
 header {
@@ -50,27 +51,49 @@ header {
   overflow: hidden;
 }
 
-.deal-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 620px;
-    background: rgba(229, 84, 115, 0.05);
+.deal-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 620px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 0 100px;
+}
+.deal-left h3 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.deal-left {
+  flex-basis: 50%;
+  padding-left: 100px;
+}
+.deal-right {
+  flex-basis: 50%;
+  padding-left: 100px;
+}
+.social-section{
+    margin: 100px 0;
     padding: 0 100px;
 }
-.deal-left h3{
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 20px;
+.social-text h1 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
-
-.deal-left{
-    flex-basis: 50%;
-    padding-left: 100px;
+.social-text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 15px;
 }
-.deal-right{
-    flex-basis: 50%;
-    padding-left: 100px;
-
+.social-img{
+    display: flex;
+    justify-content: space-around;
 }
